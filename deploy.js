@@ -1,3 +1,7 @@
+/**
+ * Fill out remote_location and source_location
+ */
+ 
 var fs = require ('fs.extra');
 var remote_location = '';
 var source_location = '';
@@ -25,11 +29,11 @@ deleteRemoteDir(remote_location);
 // Remake the initial directory
 fs.mkdir(remote_location, function(err) {
    if(err) { throw err; }
-   console.log("Remote directory created.");
+   console.log("Remote directory was created.");
 });
 
 // Copy from local to remote location
-fs.copy (source_location, remote_location, function (err) {
+fs.copyRecursive (source_location, remote_location, function (err) {
     if (err) { throw err; }
     console.log ("Files were copied.");
 });

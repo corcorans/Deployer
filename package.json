@@ -1,8 +1,12 @@
 {
   "name": "Deployer",
   "version": "0.0.1",
-  "description": "Node.js script to deployer files to a remote server or location",
+  "description": "Deploy files and folders to remote locations.",
   "main": "deploy.js",
+  "dependencies": {
+    "fs.extra": "~1.2.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
