@@ -1,0 +1,18 @@
+{
+  "name": "Deployer",
+  "version": "0.0.1",
+  "description": "Node.js script to deployer files to a remote server or location",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/corcorans/Deployer.git"
+  },
+  "author": "Stephen Corcoran",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/corcorans/Deployer/issues"
+  }
+}
