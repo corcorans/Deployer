@@ -23,7 +23,7 @@ var deleteRemoteDir = function(path) {
 deleteRemoteDir(remote_location);
 
 // Remake the initial directory
-fs.mkdir(remote_location', function(err) {
+fs.mkdir(remote_location, function(err) {
    if(err) { throw err; }
    console.log("Remote directory created.");
 });
