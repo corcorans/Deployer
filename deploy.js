@@ -2,8 +2,8 @@
  * Fill out remote_location and source_location
  */
 var fs = require ('fs.extra');
-var remote_location = '';
-var source_location = '';
+var remote_location = 'C:/test';
+var source_location = 'C:/temp';
 
 /* Delete the remote folder recursively*/
 function deleteRemoteDir(path) {
